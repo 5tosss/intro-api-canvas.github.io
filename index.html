@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Enlace a Bootstrap 5 -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <title>Intro Canvas</title>
+</head>
+<body class="bg-light">
+    <div class="container vh-100 d-flex justify-content-center align-items-center">
+        <div class="row w-100 justify-content-center">
+            <div class="col-md-6">
+                <!-- Card con sombra y borde gris claro -->
+                <div class="card shadow border border-success">
+                    <div class="card-header text-center bg-primary text-white">
+                        <h5 class="m-0">Rectangulo</h5>
+                    </div>
+                    <div class="card-body text-center">
+                        <!-- Canvas con un tamaño adecuado -->
+                        <canvas id="canvas" width="300" height="200"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Tarjeta para el triángulo -->
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-5 mb-4">
+                <div class="card shadow-lg border border-light">
+                    <div class="card-header text-center bg-danger text-white">
+                        <h5 class="m-0">Triángulo Naranja</h5>
+                    </div>
+                    <div class="card-body text-center">
+                        <canvas id="canvas-triangle" width="300" height="200"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Tarjeta para la carita feliz -->
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-lg border border-light">
+                    <div class="card-header text-center bg-warning text-dark">
+                        <h5 class="m-0">Carita Feliz</h5>
+                    </div>
+                    <div class="card-body text-center">
+                        <canvas id="canvas-smiley" width="300" height="200"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Tarjeta: Dos triángulos -->
+    <div class="container mt-5">
+    <div class="row justify-content-center">
+    <div class="col-md-4 mb-4 d-flex justify-content-center">
+    <div class="card shadow-lg border border-light text-center" style="width: 22rem;">
+        <div class="card-header bg-success text-white">
+            <h5 class="m-0">Dos Triángulos</h5>
+        </div>
+        <div class="card-body">
+            <canvas id="canvas-two-triangles" width="250" height="200"></canvas>
+        </div>
+    </div>
+    </div>
+    <!--tarjeta para curvas-->
+    <div class="container mt-5">
+    <div class="row justify-content-center">
+    <div class="col-md-4 mb-4 d-flex justify-content-center">
+        <div class="card shadow-lg border border-light text-center" style="width: 22rem;">
+            <div class="card-header bg-info text-white">
+                <h5 class="m-0">Curvas Dibujadas</h5>
+            </div>
+            <div class="card-body">
+                <canvas id="canvas-curves" width="250" height="200"></canvas>
+            </div>
+        </div>
+    </div>
+    <!--Curvas Cuadraticas-->
+    <div class="row w-100 justify-content-center">
+        <div class="col-md-4 mb-4 d-flex justify-content-center">
+            <div class="card shadow-lg border border-light text-center" style="width: 22rem;">
+                <div class="card-header bg-secondary text-white">
+                    <h5 class="m-0">Curvas Cuadráticas</h5>
+                </div>
+                <div class="card-body">
+                    <canvas id="canvas-quadratic-curves" width="250" height="200"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Dibujar un corazón-->
+    <div class="row w-100 justify-content-center">
+        <div class="col-md-4 mb-4 d-flex justify-content-center">
+            <div class="card shadow-lg border border-light text-center" style="width: 22rem;">
+                <div class="card-header bg-danger text-white">
+                    <h5 class="m-0">Corazón con Curvas Cúbicas</h5>
+                </div>
+                <div class="card-body">
+                    <canvas id="canvas-heart" width="250" height="200"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Pacman-->
+    <div class="row w-100 justify-content-center">
+        <!-- Tarjeta: Pacman -->
+        <div class="col-md-4 mb-4 d-flex justify-content-center">
+            <div class="card shadow-lg border border-light text-center" style="width: 22rem;">
+                <div class="card-header bg-warning text-dark">
+                    <h5 class="m-0">Pac-Man</h5>
+                </div>
+                <div class="card-body">
+                    <canvas id="canvas-pacman" width="250" height="250"></canvas>
+                </div>
+            </div>
+    </div>
+    <!-- Enlace a Bootstrap 5 (JS) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
